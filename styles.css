@@ -1,0 +1,337 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    
+  }
+  
+@font-face {
+    font-family: "Odachi";
+    src:url("Odachi 400.otf")
+}
+
+@font-face {
+    font-family: "NoirRegular";
+    src:url("NoirStd-Regular.ttf")
+}
+
+@font-face {
+    font-family: "NoirBold";
+    src:url("NoirPro-Bold.ttf")
+}
+
+
+header {
+    position: center;
+    min-width: 100%;
+    z-index: 1;
+  }
+  
+  .navi {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 40px;
+    min-height: 10vh;
+    background-color: #015668;
+  }
+  .navi h1 {
+      font-family: "Odachi";
+      color:white;
+
+  }
+
+  .navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+
+  .nav-items a {
+    font-family: "NoirRegular";
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+  }
+
+  .nav-items a:hover{
+      background-color: #003333;
+  }
+
+  .intro {
+    min-height: 100vh;
+    background-image: url("falls.jpg");
+    position:relative;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100%;
+  
+  }
+
+  .location {
+      background-image: linear-gradient(black,gray);
+      background-image: url("cloud.png") ,url("place.png");
+      background-blend-mode: overlay;
+      position: relative;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      padding-top: 200px;        
+      height:1000px;      
+  }
+
+
+  .locintroh1 {
+      font-family: "NoirRegular";
+      margin-top: 180px;
+      margin-left: 50px;
+      font-size: 45px;
+      color: #ffd369;
+
+  }
+
+
+  .locintrop {
+    padding-left: 50px;
+    font-family: "NoirRegular";
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+   
+
+.loc-intro h1 {
+    padding-left: 50px;
+    text-decoration: underline;
+    text-decoration-color: black;   
+}
+
+  .intro1{
+    text-align: center;
+    padding-top: 150px;
+    color:white;
+    font-family: NoirBold;
+    font-size: 50px;
+    }
+  
+    .intro2{
+        text-align: center;
+        margin-top: 30px;
+        color:white;
+        font-family: NoirRegular;
+        font-size: 40px;
+    }
+
+    .benefits {
+        background-color: white;
+        background-size: 100%;
+        height: 100vh;
+    }
+
+.topintro {
+    background-color: #015668;
+    height: 200px;
+}
+
+.topintroh1 {
+    color: white;
+    font-family: NoirRegular;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px ;
+
+}
+
+.topintrop {
+    color: white;
+    font-family: "NoirRegular";
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.contact-us{
+    background-image:url("hills.png"),linear-gradient(black 0%,white 90%);
+    background-size: 100%;
+    height: 100vh;
+    mix-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.box1{
+    width: 300px;
+    text-align: justify;
+    background: rgba(52,15,185,0.1);
+    box-shadow: 5px 10px;
+    padding: 20px;
+    margin: 1% auto 0;
+    margin-top: 60px;       
+    font-size: 16px;
+    color: black;
+    left: 5%;
+    position: absolute;
+}
+
+
+.box2 {
+    width: 300px;
+    text-align: justify;
+    background: rgba(52,15,185,0.1);
+    box-shadow: 5px 10px;
+    padding: 20px;
+    margin: 1% auto 0;
+    margin-top: 60px;
+    font-size: 16px;
+    color: black;
+    left: 40%;
+    position: absolute;
+}
+
+.box3 {
+    width: 300px;
+    text-align: justify;
+    background: rgba(52,15,185,0.1);
+    box-shadow: 5px 10px;
+    padding: 20px;
+    margin: 1% auto 0;
+    margin-top: 60px;
+    font-size: 16px;
+    color: black;
+    left: 75%;
+    position: absolute;
+}
+
+.logobg {
+    background-color: teal;
+    width: 300px;
+    margin-top: -20px;
+    margin-left: -20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.travel-logo{
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.title1 {
+    font-family: NoirRegular;
+    font-size: 20px;
+    text-align: center; 
+    width: 300px;
+    height: 50px;
+    margin-left: -20px;
+    margin-top: -20px;
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+
+.contact-box{
+    width: 500px;
+    height: 300px;
+    text-align: justify;
+    background:rgba(18 ,132,149,0.4);
+    
+    padding: 20px;
+    margin: 1% auto 0;
+    margin-top: 150px;       
+    font-size: 16px;
+    left: 30%;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contact-box h1 {
+    font-family: NoirRegular;
+    color:#ffd369;
+    text-align: center;
+}
+ 
+
+.buttn {
+    font-family: "NoirRegular";
+    margin-top: 50px;
+    width: auto;
+    padding: 12px 24px;
+    background-color: #015668;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin-left: 600px;
+}
+
+
+form {
+    margin-top: 10px;
+    font-family: NoirRegular;
+    text-align: center;
+    color: #ffd369;
+}
+
+.inp {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+.btn {
+    font-family: NoirRegular;
+    background-color: #015668;
+    margin-top: 20px;
+    width: auto;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+
+}
+
+
+.footer {
+    clear: both;
+    position: relative;       
+    left: 0;
+    bottom: 0;
+    background-color: #015668;
+    width: 100%;
+    height: 75px;
+    margin-top: auto;
+        
+}
+
+.footer p {
+    color:#ffd369;
+    font-family: Odachi;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 20px;
+    float: left;
+    
+}
+
+.icon {
+    float: right;
+    margin-top: 25px;
+    margin-right: 150px;
+}
+
